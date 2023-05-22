@@ -11,6 +11,8 @@
 		EA770A562A1AE6810098A32C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA770A552A1AE6810098A32C /* ContentView.swift */; };
 		EA770A582A1AE6830098A32C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA770A572A1AE6830098A32C /* Assets.xcassets */; };
 		EA770A5B2A1AE6830098A32C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA770A5A2A1AE6830098A32C /* Preview Assets.xcassets */; };
+		EA770A642A1AE6ED0098A32C /* FlagsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA770A632A1AE6ED0098A32C /* FlagsModel.swift */; };
+		EA770A662A1AE7080098A32C /* FlagSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA770A652A1AE7080098A32C /* FlagSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EA770A552A1AE6810098A32C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA770A572A1AE6830098A32C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA770A5A2A1AE6830098A32C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA770A632A1AE6ED0098A32C /* FlagsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsModel.swift; sourceTree = "<group>"; };
+		EA770A652A1AE7080098A32C /* FlagSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,9 @@
 		EA770A522A1AE6810098A32C /* Flags */ = {
 			isa = PBXGroup;
 			children = (
+				EA770A612A1AE6920098A32C /* FlagsModel */,
 				EA770A532A1AE6810098A32C /* FlagsApp.swift */,
 				EA770A552A1AE6810098A32C /* ContentView.swift */,
-				EA770A572A1AE6830098A32C /* Assets.xcassets */,
 				EA770A592A1AE6830098A32C /* Preview Content */,
 			);
 			path = Flags;
@@ -65,6 +69,16 @@
 				EA770A5A2A1AE6830098A32C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA770A612A1AE6920098A32C /* FlagsModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA770A632A1AE6ED0098A32C /* FlagsModel.swift */,
+				EA770A652A1AE7080098A32C /* FlagSwift.swift */,
+				EA770A572A1AE6830098A32C /* Assets.xcassets */,
+			);
+			path = FlagsModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA770A642A1AE6ED0098A32C /* FlagsModel.swift in Sources */,
+				EA770A662A1AE7080098A32C /* FlagSwift.swift in Sources */,
 				EA770A562A1AE6810098A32C /* ContentView.swift in Sources */,
 				EA770A542A1AE6810098A32C /* FlagsApp.swift in Sources */,
 			);

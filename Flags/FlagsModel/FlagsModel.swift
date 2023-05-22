@@ -9,9 +9,31 @@ import SwiftUI
 
 struct FlagsModel: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+        VStack{
+            HStack{
+                Text("Select your country")
+                    .padding(.top,80)
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                    .frame(width: 500.0)
+                    .background(.green)
+            }.ignoresSafeArea()
+            List{
+                ForEach(Flags ){ flag in
+                    HStack{
+                        Image(flag.image)
+                            .resizable()
+                            .frame(width: 40, height: 30)
+                        Text(flag.name)
+                            .padding(10)
+                        
+                        
+                    }}
+                
+                
+            }
+        }
+    }}
 
 struct FlagsModel_Previews: PreviewProvider {
     static var previews: some View {
